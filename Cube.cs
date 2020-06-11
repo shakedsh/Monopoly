@@ -4,18 +4,25 @@ public class Cube : MonoBehaviour
 {
     private bool isCubeMoving = true;
     int diceCount;
+    public static int diceResult=0;
+    
+
     void Update()
     {
+       diceCount = 0;
         if (isCubeMoving && GetComponent<Rigidbody>().velocity.magnitude <= 0.1)
         {
             Debug.Log("stop"); // הקוביה הפסיקה לזוז
             isCubeMoving = false;
-            WhichSideUp();
+            diceResult=WhichSideUp();
+            Movement.playerNeedToMove = true;
+            Movement.steps = diceResult * Movement.tileSize;
+            
         }
     }
 
     // בדיקה אחרי שהקוביה נחתה, מה הצד העליון
-    void WhichSideUp()
+    int WhichSideUp()
     {
         if (Vector3.Dot(-transform.up, Vector3.up) > 0.6f)
             diceCount = 1;
@@ -30,6 +37,8 @@ public class Cube : MonoBehaviour
         if (Vector3.Dot(-transform.right, Vector3.up) > 0.6f)
             diceCount = 6;
         Debug.Log("up = " + diceCount);
+
+        return diceCount;
     }
 
     /*
@@ -40,4 +49,11 @@ public class Cube : MonoBehaviour
             Debug.Log("karka");
     }
     */
+
+    
+    
+       
+
+
+
 }
