@@ -92,9 +92,12 @@ https://shakedshiran.itch.io/monopoly3d
 הסקריפט שמראה כמה כסף יש לך, 
 מקושר פעמיים ב Canvas/YourMoney   וב Canvas/bank/BankPanel/YourMoney
 
-עכשיו יש שלושה סקריפטים פשוטים שכתבנו שמשתנים בPlayer_Movement בפונקציה CurrentTileUpdate .
+עכשיו יש שלושה סקריפטים פשוטים שכתבנו שמשתנים בPlayer_Movement בפונקציה CurrentTileUpdate :
+
 [GroupScript](https://github.com/shakedsh/Monopoly/blob/master/GroupScript.cs)
+
 [TileNameScript](https://github.com/shakedsh/Monopoly/blob/master/TileNameScript.cs)
+
 [TileBuyingPriceScript](https://github.com/shakedsh/Monopoly/blob/master/TileBuyingPriceScript.cs)
 
 בפאנל שעולה בלחיצה על הshop ומציג את פרטי הנכס  הם מעדכנים את הכיתוב של הקבוצה, השם של הנכס ומחיר הקניה שלו.
