@@ -1,33 +1,43 @@
 # Monopoly 
 
-  
-  קישור לitch:
+  <p dir="rtl">
+  קישור ל itch:
+  <p dir="rtl">
 https://shakedshiran.itch.io/monopoly3d
 
 
+
 <p dir="rtl">
-תיאור סקריפטים:
+##תיאור סקריפטים:
 <p dir="rtl">
   
-Asset_tile
-
+  
+[Asset_tile](https://github.com/shakedsh/Monopoly/blob/master/Asset_tile.cs)
 
 <p dir="rtl">
 זהו הסקריפט היחיד שהוא לא MonoBehaviour, הוא לא מקושר לאף אובייקט במשחק וזאת משום שהוא מהווה עצם של אריח שמכיל פרטים כגון: מיקום האריח, שמו, לאיזו קבוצה הוא משתייך, מה מחיר הקנייה שלו ועוד..
 בסקריפט זה יש רק פעולות בונות וSET וGET.
 <p dir="rtl">
-AllAssets_Tiles
+  
+  
+  
+[AllAssets_Tiles](https://github.com/shakedsh/Monopoly/blob/master/AllAssets_Tiles.cs)
+
+<p dir="rtl">
 סקריפט זה מכיל לנו את הרשימה של האריחים במשחק.
 הוא מקושר לאובייקט worldObjects/streetTiles/tiles (ראה תמונה)
-
 
 יש חשיבות לסדר האריחים בtiles וחשוב שלא יהיו בה פריטים שהם לא אחד מ28 (0-27) האריחים.
 בסקריפט זה אנו מייצרים את העצמים של הAsset_tile (הסקריפט הקודם) ומכניסים אותם לרשימה.
 את המיקומים הכנסתי בלולאת for שעוברת אחד אחד על כל הילדים של tiles (בצד שמאל בתמונה.
+<p dir="rtl">
 
 
-Bank_Script 
+[Bank_Script](https://github.com/shakedsh/Monopoly/blob/master/Bank_Script.cs)
+
+<p dir="rtl">
 מקושר לCanvas/bank - עוד לא בשימוש.
+<p dir="rtl">
 
 
 Dice_script
