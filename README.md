@@ -8,11 +8,10 @@ https://shakedshiran.itch.io/monopoly3d
 
 
 
-  <p dir="rtl">
 
 ## תיאור סקריפטים:
 
-    <p dir="rtl">
+  
 
   
 [Asset_tile](https://github.com/shakedsh/Monopoly/blob/master/Asset_tile.cs)
