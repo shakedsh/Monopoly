@@ -1,6 +1,8 @@
+<div dir="rtl">
 # Monopoly 
 
    
+קישור לitch:
 
 https://shakedshiran.itch.io/monopoly3d
 
@@ -9,7 +11,6 @@ https://shakedshiran.itch.io/monopoly3d
 
 ## תיאור סקריפטים:
 
-    <p dir="rtl">
 
 
   
@@ -22,7 +23,6 @@ https://shakedshiran.itch.io/monopoly3d
   
   
 [AllAssets_Tiles](https://github.com/shakedsh/Monopoly/blob/master/AllAssets_Tiles.cs)
-&#x202b;
 סקריפט זה מכיל לנו את הרשימה של האריחים במשחק.
 הוא מקושר לאובייקט worldObjects/streetTiles/tiles (ראה תמונה)
 
