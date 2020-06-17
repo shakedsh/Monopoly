@@ -1,7 +1,5 @@
 # Monopoly 
 
-  <p dir="rtl">
-  קישור ל itch:
    
 
 https://shakedshiran.itch.io/monopoly3d
@@ -11,7 +9,8 @@ https://shakedshiran.itch.io/monopoly3d
 
 ## תיאור סקריפטים:
 
-  
+    <p dir="rtl">
+
 
   
 [Asset_tile](https://github.com/shakedsh/Monopoly/blob/master/Asset_tile.cs)
