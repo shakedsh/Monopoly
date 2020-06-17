@@ -87,7 +87,7 @@ https://shakedshiran.itch.io/monopoly3d
 הסקריפט הזה מקושר לCanvas/assetDetails/assetDetailsBTN , לכפתור של הshop.
 
 
-(YourMoneyScript)[https://github.com/shakedsh/Monopoly/blob/master/YourMoneyScript.cs)
+[YourMoneyScript](https://github.com/shakedsh/Monopoly/blob/master/YourMoneyScript.cs)
 
 הסקריפט שמראה כמה כסף יש לך, 
 מקושר פעמיים ב Canvas/YourMoney   וב Canvas/bank/BankPanel/YourMoney
