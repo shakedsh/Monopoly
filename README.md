@@ -16,7 +16,6 @@ https://shakedshiran.itch.io/monopoly3d
   
 [Asset_tile](https://github.com/shakedsh/Monopoly/blob/master/Asset_tile.cs)
 
-    <p dir="rtl">
 זהו הסקריפט היחיד שהוא לא MonoBehaviour, הוא לא מקושר לאף אובייקט במשחק וזאת משום שהוא מהווה עצם של אריח שמכיל פרטים כגון: מיקום האריח, שמו, לאיזו קבוצה הוא משתייך, מה מחיר הקנייה שלו ועוד..
 בסקריפט זה יש רק פעולות בונות וSET וGET.
       <p dir="rtl">
@@ -25,7 +24,6 @@ https://shakedshiran.itch.io/monopoly3d
   
 [AllAssets_Tiles](https://github.com/shakedsh/Monopoly/blob/master/AllAssets_Tiles.cs)
 
-    <p dir="rtl">
 סקריפט זה מכיל לנו את הרשימה של האריחים במשחק.
 הוא מקושר לאובייקט worldObjects/streetTiles/tiles (ראה תמונה)
 
