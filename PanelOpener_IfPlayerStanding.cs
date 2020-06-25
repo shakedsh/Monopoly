@@ -9,7 +9,7 @@ public class PanelOpener_IfPlayerStanding : MonoBehaviour
 
     public void OpenPanel()
     {
-        if (Player_Movement.playerSituation == 0)
+        if (PlayersList.CurrentplayerSituation == 0)
         {
             if (Panel != null)
             {

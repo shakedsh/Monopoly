@@ -8,6 +8,7 @@ public class Asset_tile
     private Vector3 tilePos;
     public string tileName;
     public string tileGroup;
+    public int owner; //-1 when free
 
     public int tileBuyingPrice; //mehir kniya
     public int tiletransmitionPayment; //tashlum lemi shemahzik baNehes
@@ -15,6 +16,7 @@ public class Asset_tile
 
     public Asset_tile(Vector3 tilePos1, string tileName1, string tileGroup1, int tileBuyingPrice1, int tiletransmitionPayment1, int tileHouseBuyingPrice1)
     {
+        owner = -1;
         tilePos = tilePos1;
         tileName = tileName1;
         tileGroup = tileGroup1;
@@ -25,6 +27,7 @@ public class Asset_tile
 
     public Asset_tile(string tileName1, string tileGroup1, int tileBuyingPrice1, int tiletransmitionPayment1, int tileHouseBuyingPrice1)
     {
+        owner = -1;
         tilePos = Vector3.zero; //livdok sheoved
         tileName = tileName1;
         tileGroup = tileGroup1;
@@ -43,5 +46,8 @@ public class Asset_tile
     {
         tilePos = posnew;
     }
+
+    
+
 
 }
